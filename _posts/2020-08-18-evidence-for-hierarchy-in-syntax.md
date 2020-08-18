@@ -1,5 +1,3 @@
-# Evidence for hierarchy in syntax
-
 I recently read Carnie (2010)’s _Constituent Structure_, a fantastic post-intro syntax textbook about syntactic structure. 
 
 Chapter 2 lays out some clear, succient evidence for motivating hierarchical structure in syntax. There are two (very different) pieces of evidence from that chapter that I think are pretty accessible to someone who’s never learned syntax before and I thought I would recapitulate them here.
