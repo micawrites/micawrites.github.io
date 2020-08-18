@@ -36,11 +36,7 @@ To get technical, this notion of precedence has the properties of being reflexiv
 
 > Well last time Bullwinkle had tossed Rocky high into the air in a desperate attempt to intercept the misguided **missile** which was carrying, of all people,  Fearless Leader himself. But the evil-minded villian thought Rocky was an American **anti-missile-missile** and so began to assemble his secret weapon, an **anti-anti-missile-missile-missile**.
 
-The pattern strings together `n` *anti* ’s followed by `n+1` *missile*’s. However, we cannot describe this pattern by looping over words, since precedence doesn’t let us count how many times we pass through a loop. That is, reflexive-transitive precedence is insufficient.
-
-![](/assets/images/anti-missile-loop.jpg)
-
-Instead, we need a richer structure, like trees, which we can stack on top of each other.
+The pattern strings together `n` *anti* ’s followed by `n+1` *missile*’s. However, we cannot describe this pattern by looping over words, since precedence doesn’t let us count how many times we pass through a loop. That is, reflexive-transitive precedence is insufficient. Instead, we need a richer structure, like trees, which we can stack on top of each other.
 
 ![](/assets/images/anti-missile-tree.jpg)
 
