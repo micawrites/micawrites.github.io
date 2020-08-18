@@ -28,11 +28,11 @@ The fact that these strings are favored suggest that they act like a unit. Const
 
 The second piece of evidence is more mathematical. It says that precedence alone is not enough to capture all syntactic structures. Assume syntactic structures are based on precedence. For example, the sentence “They said that the party was bad” could be represented like the following.
 
-![](file:///Users/michael/Sites/micawrites.github.io/_images/they%20said%20that%20string.pdf)
+![](_images/they%20said%20that%20string.pdf)
 	
 Syntactic structures also show repetition. You can say “They said that they said that they said that the party was bad”. We can represent this using loops.
 
-![](file:///Users/michael/Sites/micawrites.github.io/_images/they%20said%20that%20loop.pdf)
+![](_images/they%20said%20that%20loop.pdf)
 	
 To get technical, this notion of precedence has the properties of being reflexive (A → A) and transitive (A → B → C implies A → C). However, some syntactic patterns are not expressible by reflexive-transitive precedence. My new favorite example, which Carnie republished from Lasnik (2000), who said he got it from Morris Halle, is originally I think from a [Rocky and Bullwinkle clip](https://www.youtube.com/watch?v=-JVlUHxf8iY&feature=youtu.be&t=21).
 
@@ -40,11 +40,11 @@ To get technical, this notion of precedence has the properties of being reflexiv
 
 The pattern strings together `n` *anti* ’s followed by `n+1` *missile*’s. However, we cannot describe this pattern by looping over words, since precedence doesn’t let us count how many times we pass through a loop. That is, reflexive-transitive precedence is insufficient.
 
-![](file:///Users/michael/Sites/micawrites.github.io/_images/anti%20missile%20loop.pdf)
+![](_images/anti%20missile%20loop.pdf)
 
 Instead, we need a richer structure, like trees, which we can stack on top of each other.
 
-![](file:///Users/michael/Sites/micawrites.github.io/_images/anti%20missile%20tree.pdf)
+![](_images/anti%20missile%20tree.pdf)
 
 ## Summary
 
